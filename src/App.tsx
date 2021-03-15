@@ -2,11 +2,7 @@ import { Routes } from './routes';
 import './styles/global.scss';
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <Routes />
-    </div>
-  );
+  return <Routes />
 }
 
 export { App };

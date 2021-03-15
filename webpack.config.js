@@ -1,7 +1,7 @@
-const { Module } = require("webpack");
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
+const PluginTransformaGeneration = require('@babel/plugin-transform-regenerator')
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 

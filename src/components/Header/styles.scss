@@ -1,8 +1,8 @@
 header {
   display: flex!important;
   align-items: center;
-  justify-content: space-between;
   padding: 0 30px;
+  margin-bottom: 25px;
   height: 100px;
   border-bottom: solid 1px rgb(204, 203, 203);
 
@@ -10,6 +10,7 @@ header {
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+    padding: 0 30px;
   }
 
   .navbar {
@@ -20,14 +21,14 @@ header {
       padding: 5px;
       text-decoration: none;
       background-color: transparent;
-      color: #007bff;
+      color: #03697A;
       border: solid 1px;
       border-radius: 5px;
-      border-color: #007bff;
+      border-color: #03697A;
 
       &:hover {
         color: #FFF;
-        background-color: #007bff;
+        background-color: #03697A;
         transition: 1s;
       }
     }
