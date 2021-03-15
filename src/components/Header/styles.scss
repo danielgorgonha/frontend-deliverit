@@ -1,0 +1,37 @@
+header {
+  display: flex!important;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 100px;
+  border-bottom: solid 1px rgb(204, 203, 203);
+
+  .logo {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+  }
+
+  .navbar {
+    padding: 2px;
+
+    a {
+      margin: 2px;
+      padding: 5px;
+      text-decoration: none;
+      background-color: transparent;
+      color: #007bff;
+      border: solid 1px;
+      border-radius: 5px;
+      border-color: #007bff;
+
+      &:hover {
+        color: #FFF;
+        background-color: #007bff;
+        transition: 1s;
+      }
+    }
+
+  }
+
+}
